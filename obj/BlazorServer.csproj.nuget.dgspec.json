@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/damluger/BlazorServer/BlazorServer.csproj": {}
+  },
+  "projects": {
+    "/home/damluger/BlazorServer/BlazorServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/damluger/BlazorServer/BlazorServer.csproj",
+        "projectName": "BlazorServer",
+        "projectPath": "/home/damluger/BlazorServer/BlazorServer.csproj",
+        "packagesPath": "/home/damluger/.nuget/packages/",
+        "outputPath": "/home/damluger/BlazorServer/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/damluger/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100-preview9-014004/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
