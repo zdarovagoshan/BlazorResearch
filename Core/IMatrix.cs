@@ -125,7 +125,7 @@ namespace BlazorServer.Matrix
     }
     public interface ISlaeSolver<T> : ISlaeSolverBase where T : struct
     {
-        ILinearOperator<T> Matrix { get; set; }
+        // ILinearOperator<T> Matrix { get; set; }
         new IMatrixFactorizer<T> Factorizer { get; set; }
         void UseNeumannCorrection(ReadOnlySpan<T> vector);
         /// <summary>

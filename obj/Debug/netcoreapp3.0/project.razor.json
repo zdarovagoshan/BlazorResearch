@@ -220,6 +220,55 @@
       },
       {
         "Kind": "Components.Component",
+        "Name": "BlazorServer.Pages.Copy",
+        "AssemblyName": "BlazorServer",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Copy",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServer.Pages.Copy"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BlazorServer.Pages.Copy",
+        "AssemblyName": "BlazorServer",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorServer.Pages.Copy",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServer.Pages.Copy",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
         "Name": "BlazorServer.Pages.Counter",
         "AssemblyName": "BlazorServer",
         "Documentation": null,
@@ -416,14 +465,14 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "BlazorServer.Pages.Non_linear_initial_problem",
+        "Name": "BlazorServer.Pages.Non_linear_problem",
         "AssemblyName": "BlazorServer",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Non_linear_initial_problem",
+            "TagName": "Non_linear_problem",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -435,19 +484,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServer.Pages.Non_linear_initial_problem"
+          "Common.TypeName": "BlazorServer.Pages.Non_linear_problem"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "BlazorServer.Pages.Non_linear_initial_problem",
+        "Name": "BlazorServer.Pages.Non_linear_problem",
         "AssemblyName": "BlazorServer",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorServer.Pages.Non_linear_initial_problem",
+            "TagName": "BlazorServer.Pages.Non_linear_problem",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -459,7 +508,7 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServer.Pages.Non_linear_initial_problem",
+          "Common.TypeName": "BlazorServer.Pages.Non_linear_problem",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15412,6 +15461,11 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "Pages/Copy.razor",
+      "TargetPath": "Pages/Copy.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "Pages/_Host.cshtml",
       "TargetPath": "Pages/_Host.cshtml",
       "FileKind": "mvc"
@@ -15437,6 +15491,11 @@
       "FileKind": "componentImport"
     },
     {
+      "FilePath": "Pages/Non_linear_problem.razor",
+      "TargetPath": "Pages/Non_linear_problem.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "Components/MyFirstComponent.razor",
       "TargetPath": "Components/MyFirstComponent.razor",
       "FileKind": "component"
@@ -15450,11 +15509,6 @@
       "FilePath": "_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "Pages/Non-linear-initial-problem.razor",
-      "TargetPath": "Pages/Non-linear-initial-problem.razor",
-      "FileKind": "component"
     }
   ],
   "SerializationFormat": "0.2"

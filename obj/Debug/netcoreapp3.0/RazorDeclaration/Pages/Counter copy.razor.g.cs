@@ -83,6 +83,13 @@ using BlazorServer.Components;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "/home/damluger/BlazorServer/_Imports.razor"
+using BlazorServer.Core;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public class Counter_copy : Microsoft.AspNetCore.Components.ComponentBase
     {

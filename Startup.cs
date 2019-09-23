@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using BlazorServer.Data;
+using BlazorServer.Core;
+using System.Net.Http;
 
 namespace BlazorServer
 {
@@ -29,6 +31,7 @@ namespace BlazorServer
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+            services.AddSingleton<No_liniear_problem>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,6 +56,7 @@ namespace BlazorServer
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapBlazorHub();
+                // endpoints.MapBlazorHub<Client.App>("app");
                 endpoints.MapFallbackToPage("/_Host");
             });
         }

@@ -1,17 +1,10 @@
 ﻿@inherits LayoutComponentBase
 
-@if(sideBarIsCollapsed)
-{
-    <button class="navbar-toggler" @onclick="ToggleNavMenu">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-}
-else
-{
+
     <div id="SideBar" class="sidebar">
-        <NavMenu @bind-collapseNavMenu="sideBarIsCollapsed"/>
+        <NavMenu />
     </div>
-}
+
 <div class="main">
     <div class="top-row px-4">
         <a href="https://docs.microsoft.com/en-us/aspnet/" target="_blank">About</a>

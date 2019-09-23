@@ -175,7 +175,6 @@ namespace BlazorServer.Core
                 builder.BoundaryMaterialNames = BoundaryDict;
                 builder.VolumeMaterialNames = VolumeDict;
                 return builder;
-
             }
         }
     }

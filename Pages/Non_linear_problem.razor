@@ -1,0 +1,17 @@
+﻿@page "/nlp"
+
+@using BlazorServer.Core
+@inject No_liniear_problem Nlip
+
+<h1>Non linear problem</h1>
+
+<button class="btn btn-primary" @onclick="Start_calculate">Start calculate</button>
+
+@code
+{
+    
+    async Task Start_calculate()
+    {
+        await Nlip.GetResult();
+    }
+}

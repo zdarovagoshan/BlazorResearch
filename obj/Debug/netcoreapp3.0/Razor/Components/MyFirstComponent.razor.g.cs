@@ -79,6 +79,13 @@ using BlazorServer.Components;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "/home/damluger/BlazorServer/_Imports.razor"
+using BlazorServer.Core;
+
+#line default
+#line hidden
+#nullable disable
     public class MyFirstComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

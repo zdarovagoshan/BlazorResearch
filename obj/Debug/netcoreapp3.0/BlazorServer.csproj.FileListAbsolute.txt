@@ -53,3 +53,7 @@
 /home/damluger/BlazorServer/obj/Debug/netcoreapp3.0/Razor/Shared/AdminLayout.razor.g.cs
 /home/damluger/BlazorServer/obj/Debug/netcoreapp3.0/RazorDeclaration/Components/MyFirstComponent.razor.g.cs
 /home/damluger/BlazorServer/obj/Debug/netcoreapp3.0/Razor/Components/MyFirstComponent.razor.g.cs
+/home/damluger/BlazorServer/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Copy.razor.g.cs
+/home/damluger/BlazorServer/obj/Debug/netcoreapp3.0/Razor/Pages/Copy.razor.g.cs
+/home/damluger/BlazorServer/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Non_linear_problem.razor.g.cs
+/home/damluger/BlazorServer/obj/Debug/netcoreapp3.0/Razor/Pages/Non_linear_problem.razor.g.cs
